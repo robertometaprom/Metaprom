@@ -1,18 +1,12 @@
-import "./globals.css"
-
-export const metadata = {
-  title: "Metaprom",
-  description: "AI-powered social campaign generator",
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #0b1020;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
-  )
+* {
+  box-sizing: border-box;
 }
